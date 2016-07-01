@@ -4,8 +4,10 @@
   padding: 0;
 }
 
-body 	{font-family: 'Open Sans', sans-serif;
-
+body 	{
+		font-family: 'Open Sans', sans-serif;
+		width: 750px;
+		margin-left: 100px;
 }
 
 header {
@@ -17,31 +19,29 @@ header {
 h1 {
 	font-size: 24px;
 	font-weight: bolder;
-	margin-top: 0;
-	margin-bottom: 0;
+	color: white;
 }
 h2	{
-	font-weight: semi-bold;
+	font-weight: bold;
 	font-size: 24px;
+	color: white;
 }
 h3	{
 	font-weight: bolder;
 	font-size:14px;
 	border-radius: 5px;
 }
-#Benefits{
-	background-color:#f0efef;
-	font-weight: bold;
+h4	{
+	font-weight: semi-bold;
 	font-size: 20px;
-}
- .same-size{
-	font-size: 13px;
-	font-weight: lighter;
-}
 
-p 	{
-	font-weight: lighter;
+}
+#Benefits	{
+	background-color:#f0efef;
+	}
+ p	{
 	font-size: 13px;
+	font-weight: lighter;
 }
 
 
