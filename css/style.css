@@ -7,32 +7,42 @@
 body 	{
 		font-family: 'Open Sans', sans-serif;
 		width: 750px;
-		margin-left: 100px;
+		
 }
 
 header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+
 }
 
 h1 {
 	font-size: 24px;
 	font-weight: bolder;
 	color: white;
+	padding-top: 50px;
+	padding-left:100px;
 }
 h2	{
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 24px;
 	color: white;
+	padding-top: 125px;
+	padding-left: 150px;
 }
 h3	{
+	
 	font-weight: bolder;
 	font-size:14px;
 	border-radius: 5px;
 }
+
+
 #Benefits	{
 	background-color:#f0efef;
+	height: 350px;
+	padding-left: 50px;
 	}
 
 h4	{
@@ -48,16 +58,47 @@ p	{
 	background-color: #033048;
 	color: white;
 }
-h3	{
+p.italic	{
 	font-weight: bolder;
 	font-style: italic;
 	font-size: 18px;
 }
-p  {
+p.amanda  {
 	font-weight: semi-bold;
 	font-size: 18px;
+	height: 350px;
 }
+.container {
+	background-color: #f9e42e;
+	margin: 0px;
+	height: 80px;
+	padding-top: 10px;
+}
+.banner {
+  background-color: #033048;
+  font-family: Helvetica, Arial, Sans-serif;
+  padding:10px;
+  padding-right: 0px;
+  border-top: 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  
+  color: white;
+}
+#footer {
+	height: 350px;
+	background-color: #121212;
+}
+h1  color: #f9e42e;
 
+p {
+	font-size: 9px;
+	font-family: semi-bold;
+}
 
 
 
