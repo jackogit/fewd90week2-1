@@ -31,19 +31,32 @@ h3	{
 	font-size:14px;
 	border-radius: 5px;
 }
+#Benefits	{
+	background-color:#f0efef;
+	}
+
 h4	{
 	font-weight: semi-bold;
 	font-size: 20px;
 
 }
-#Benefits	{
-	background-color:#f0efef;
-	}
- p	{
+p	{
 	font-size: 13px;
 	font-weight: lighter;
 }
-
+#Ocean-Waves	{
+	background-color: #033048;
+	color: white;
+}
+h3	{
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 18px;
+}
+p  {
+	font-weight: semi-bold;
+	font-size: 18px;
+}
 
 
 
