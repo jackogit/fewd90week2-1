@@ -6,15 +6,30 @@
 
 body 	{
 		font-family: 'Open Sans', sans-serif;
-		width: 750px;
-		
 }
 
 header {
-  height: 700px;
+  height: 500px;
+  width: 750px; margin: 0 auto;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
-
+}
+.banner {
+	background-color: #f9e42e;
+  	font-family: Helvetica, Arial, Sans-serif;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	padding-left:0px;
+  	padding-right: 0px;
+  	border-top: 80px;
+  	border-radius: 5px;
+  	font-weight: bolder;
+  	margin-top: 80px;
+  	margin-left: 300px;
+  	margin-right: 300px;
+  	text-align: center;
+  	font-family: 14px
+  
 }
 
 h1 {
@@ -28,27 +43,23 @@ h2	{
 	font-weight: normal;
 	font-size: 24px;
 	color: white;
-	padding-top: 125px;
-	padding-left: 150px;
-}
-h3	{
+	padding-top: 50px;
+	padding-left: 175px;
 	
-	font-weight: bolder;
-	font-size:14px;
-	border-radius: 5px;
-}
+
 
 
 #Benefits	{
 	background-color:#f0efef;
 	height: 350px;
 	padding-left: 50px;
+	font-size: 13px;
+	font-weight: lighter;
 	}
 
 h4	{
-	font-weight: semi-bold;
+	font-weight: normal;
 	font-size: 20px;
-
 }
 p	{
 	font-size: 13px;
@@ -64,7 +75,7 @@ p.italic	{
 	font-size: 18px;
 }
 p.amanda  {
-	font-weight: semi-bold;
+	font-weight: inherit;
 	font-size: 18px;
 	height: 350px;
 }
@@ -74,31 +85,26 @@ p.amanda  {
 	height: 80px;
 	padding-top: 10px;
 }
-.banner {
-  background-color: #033048;
-  font-family: Helvetica, Arial, Sans-serif;
-  padding:10px;
-  padding-right: 0px;
-  border-top: 30px;
-  border-radius: 5px;
-  font-weight: bolder;
-  margin-top: 20px;
-  margin-left: 300px;
-  margin-right: 300px;
-  text-align: center;
-  
-  color: white;
-}
-#footer {
-	height: 350px;
-	background-color: #121212;
-}
-h1  color: #f9e42e;
 
+  
+#footer {
+	height: 300px;
+	background-color: #121212;
+	font-size: 9px;
+	font-family: bold;
+	font-color: white;
+}
+	h1  {
+		font-size: 24px;
+		font-weight: bolder;
+		padding-top: 50px;
+		padding-left:100px;
+}
 p {
 	font-size: 9px;
-	font-family: semi-bold;
+	font-color: white;
 }
+
 
 
 
