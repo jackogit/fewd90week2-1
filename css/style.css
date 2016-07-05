@@ -70,26 +70,45 @@ h4	{
 		padding-left: 0px;
 }
 
-#ocean-Waves	{
+#ocean-waves	{
 	background-color: #033048;
 	color: white;
+	height: 300px;
 }
-p.italic	{
+	p.italic	{
+		padding-top: 100px;
+		padding-left: 100px;
+		padding-right: 100px;
 	font-weight: bolder;
 	font-style: italic;
 	font-size: 18px;
+	text-align: center;
 }
-p.amanda  {
+	p.amanda  {
 	font-weight: inherit;
 	font-size: 18px;
 	height: 350px;
+	text-align: center;
 }
 .container {
 	background-color: #f9e42e;
-	margin: 0px;
 	height: 80px;
-	padding-top: 10px;
-}
+	font-size: 12px;
+	padding-top: 15px;
+  	padding-bottom: 15px;
+  	padding-left:0px;
+  	padding-right: 0px;
+  	border-top: 80px;
+  	border-radius: 5px;
+  	font-weight: bolder;
+  	margin-top: 80px;
+  	margin-left: 300px;
+  	margin-right: 300px;
+  	text-align: center;
+  	font-family: 14px
+  }
+
+
 
   
 #footer {
