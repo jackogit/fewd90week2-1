@@ -1,19 +1,59 @@
-/* Simple CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
+body {
+	font-family: 'open sans', sans-serif;
 }
 
-body 	{
-		font-family: 'open sans', sans-serif;
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+	color: white;
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 600px;
+
+}
+
+header h2 {
+	font-weight: normal;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.benefits h3 {
+	font-weight: normal;
+	font-size: 20px;
+	padding-top: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.benefits	{
+	background-color:#f0efef;
+	height: 300px;
+	width: 100%;
+	padding-left: 110px;
+	margin-right: 0px;
+}
+.benefits p {
+	font-size: 13px;
+	font-weight: lighter;
+	width: 35%;
+}
+.benefits li {
+	width: 45%;
+	font-size: 13px;
+	font-weight: lighter;
 }
 
 header {
   height: 500px;
-  width: 750px; margin: 0 auto;
+  width: 100%; 
+
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
 }
+
 .banner {
 	background-color: #f9e42e;
   	font-family: Helvetica, Arial, Sans-serif;
@@ -24,80 +64,50 @@ header {
   	border-top: 80px;
   	border-radius: 5px;
   	font-weight: bolder;
-  	margin-top: 80px;
-  	margin-left: 300px;
-  	margin-right: 300px;
+   	margin: 0px auto 0px auto;
+   	width: 200px;
   	text-align: center;
   	font-family: 14px
-  }
-
-h1 {
-	font-size: 24px;
-	font-weight: bolder;
-	color: white;
-	padding-top: 50px;
-	padding-left:100px;
-}
-h2	{
-	font-weight: normal;
-	font-size: 24px;
-	color: white;
-	padding-top: 50px;
-	padding-left: 175px;
-}
-	
-#benefits	{
-	padding-top: 0px;
-	margin-left: 0px;
-	background-color:#f0efef;
-	height: 300px;
-	padding-top: 100px;
-	padding-left: 50px;
-	padding-right: 450px;
-	font-size: 13px;
-	font-weight: lighter;
-	border-left: 0px;
-	}
-li {
-	font-size: 13px;
-	padding-left: 0px;
-	border-left: 0px
-}
-
-h4	{
-		font-weight: normal;
-		font-size: 20px;
-		padding-left: 0px;
-}
-
-#ocean-waves	{
+ }
+.ocean	{
 	background-color: #033048;
-	color: white;
 	height: 300px;
+	margin-top:-50px;
+	text-align: center;
+	color: white;
 }
-	p.italic	{
-		padding-top: 100px;
-		padding-left: 100px;
-		padding-right: 100px;
+.ocean p	{
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
 	font-weight: bolder;
 	font-style: italic;
 	font-size: 18px;
-	text-align: center;
+	width: 40%;
 }
-	p.amanda  {
+.ocean h4  {
 	font-weight: inherit;
 	font-size: 18px;
+	font-style: normal;
 	height: 350px;
-	text-align: center;
-}
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	width: 500px;
+	}
 .container {
+
 	background-color: #f9e42e;
 	height: 80px;
+	width: 200px;
+	text-align: center;
+	margin-left: 300px;
+	padding-top: 20px;
+
+	/* background-color: #f9e42e;
+	height: 80px;
 	font-size: 12px;
-	padding-top: 15px;
-  	padding-bottom: 15px;
-  	padding-left:0px;
-  	padding-right: 0px;
+	padding: 0 auto;
   	border-top: 80px;
   	border-radius: 5px;
   	font-weight: bolder;
@@ -105,12 +115,8 @@ h4	{
   	margin-left: 300px;
   	margin-right: 300px;
   	text-align: center;
-  	font-family: 14px
+  	font-family: 14px */
   }
-
-
-
-  
 #footer {
 	height: 300px;
 	background-color: #121212;
@@ -118,13 +124,6 @@ h4	{
 	font-family: bold;
 	font-color: white;
 }
-	h1  {
-		font-size: 24px;
-		font-weight: bolder;
-		padding-top: 50px;
-		padding-left:100px;
-}
-
 
 
 
