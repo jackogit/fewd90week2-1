@@ -5,7 +5,7 @@
 }
 
 body 	{
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'open sans', sans-serif;
 }
 
 header {
@@ -29,8 +29,7 @@ header {
   	margin-right: 300px;
   	text-align: center;
   	font-family: 14px
-  
-}
+  }
 
 h1 {
 	font-size: 24px;
@@ -45,27 +44,26 @@ h2	{
 	color: white;
 	padding-top: 50px;
 	padding-left: 175px;
+}
 	
-
-
-
-#Benefits	{
+#benefits	{
+	padding-top: 0px;
+	margin-left: 0px;
 	background-color:#f0efef;
-	height: 350px;
+	height: 300px;
+	padding-top: 100px;
 	padding-left: 50px;
 	font-size: 13px;
 	font-weight: lighter;
 	}
+	h4	{
+		font-weight: normal;
+		font-size: 20px;
+		padding-left: 0px;
+}
+	
 
-h4	{
-	font-weight: normal;
-	font-size: 20px;
-}
-p	{
-	font-size: 13px;
-	font-weight: lighter;
-}
-#Ocean-Waves	{
+#ocean-Waves	{
 	background-color: #033048;
 	color: white;
 }
@@ -100,10 +98,7 @@ p.amanda  {
 		padding-top: 50px;
 		padding-left:100px;
 }
-p {
-	font-size: 9px;
-	font-color: white;
-}
+
 
 
 
