@@ -99,11 +99,14 @@ header {
 
 	background-color: #f9e42e;
 	height: 80px;
-	width: 200px;
+	width: 800px;
+}
+.signupnow {
 	text-align: center;
-	margin-left: 300px;
-	padding-top: 20px;
-
+	border-top: 20px
+	width: 200px;
+}
+}
 	/* background-color: #f9e42e;
 	height: 80px;
 	font-size: 12px;
